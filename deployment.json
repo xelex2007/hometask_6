@@ -27,7 +27,7 @@
             },
             "parameters" : {
                "administratorLogin" : {
-                  "value" : "[reference('linkedTemplatekeyvault').outputs.username.value]"
+                  "value" : "[parameters('adminname')]"
                },
                "administratorLoginPassword": {
               
