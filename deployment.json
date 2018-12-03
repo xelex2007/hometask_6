@@ -33,7 +33,7 @@
                      "keyVault": {
                         "id": "[reference('linkedTemplatekeyvault').outputs.vaultid.value]"
                      },
-                     "secretName": "[reference('linkedTemplatekeyvault').outputs.username.value]"
+                     "secretName": "[parameters('adminname')]"
                   }
 }
             }
