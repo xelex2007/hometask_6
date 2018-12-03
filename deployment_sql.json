@@ -3,8 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "administratorLogin": {
-            "type": "string",
-            "defaultvalue" : "adminsql715" 
+            "type": "string"
         },
         "administratorLoginPassword": {
             "type": "securestring"
