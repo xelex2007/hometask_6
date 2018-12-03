@@ -2,10 +2,10 @@
     "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "username": {
+        "administratorLogin": {
             "type": "string"
         },
-        "adminpassword": {
+        "administratorLoginPassword": {
             "type": "securestring"
         },
         "collation": {
@@ -63,8 +63,8 @@
             "location": "[parameters('location')]",
             "name": "[parameters('serverName')]",
             "properties": {
-                "administratorLogin": "[parameters('username')]",
-                "administratorLoginPassword": "[parameters('adminpassword')]",
+                "administratorLogin": "[parameters('administratorLogin')]",
+                "administratorLoginPassword": "[parameters('administratorLoginPassword')]",
                 "version": "12.0"
             },
             "resources": [

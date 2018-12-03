@@ -26,8 +26,8 @@
                "contentVersion": "1.0.0.0"
             },
             "parameters" : {
-               "username" : "[parameters('adminname')]",
-               "adminpassword": {
+               "administratorLogin" : "[parameters('adminname')]",
+               "administratorLoginPassword": {
               
                                     "reference": {
                                        "keyVault": {
