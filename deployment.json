@@ -29,13 +29,13 @@
                "username" : "[parameters('adminname')]",
                "adminpassword": {
               
-                  "reference": {
-                     "keyVault": {
-                        "id": "[reference('linkedTemplatekeyvault').outputs.vaultid.value]"
-                     },
-                     "secretName": "[parameters('adminname')]"
-                  }
-}
+                                    "reference": {
+                                       "keyVault": {
+                                          "id": "[reference('linkedTemplatekeyvault').outputs.vaultid.value]"
+                                       },
+                                       "secretName": "[parameters('adminname')]"
+                                    }
+                                 }
             }
          }
       },
