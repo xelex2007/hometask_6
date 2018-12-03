@@ -27,7 +27,7 @@
             },
             "parameters" : {
                "username" : "[parameters('adminname')]",
-               "adminpasswordsql": {
+               "adminpassword": {
               
                                     "reference": {
                                        "keyVault": {
