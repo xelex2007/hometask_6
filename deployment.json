@@ -25,10 +25,6 @@
                "uri": "https://raw.githubusercontent.com/xelex2007/hometask_6/master/deployment_sql.json",
                "contentVersion": "1.0.0.0"
             },
-            "parametersLink": {
-               "uri":"https://raw.githubusercontent.com/xelex2007/hometask_6/master/parameters.json",
-               "contentVersion":"1.0.0.0"
-            },
             "parameters" : {
                "username" : "[reference('linkedTemplatekeyvault').outputs.username.value]",
                "adminpassword": {
